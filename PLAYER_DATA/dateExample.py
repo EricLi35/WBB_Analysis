@@ -23,8 +23,8 @@ y = np.arange(0,105,5)
 
 fig,ax = plt.subplots()
 
-line1 = ax.plot(x, twofg , label='2 pter fg%')
-line2 = ax.plot(x, threefg , label='3 pter fg%')
+line1 = ax.plot(x, twofg , label='2 pointer fg%')
+line2 = ax.plot(x, threefg , label='3 pointer fg%')
 line3 = ax.plot(x, fg , label='Overall fg%')
 
 ax.set_xticks(x,dates)
